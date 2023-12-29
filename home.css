@@ -1,0 +1,36 @@
+html{
+    background: url('madlib_home.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+    width:700px;
+    padding: 15px;
+    margin:110px auto;
+    border-radius: 25px;
+}
+h1{
+    font-size: 35px;
+    font-variant: small-caps;
+}
+h2{
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.linkss {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 8px 7px;
+  }
+  
+  /* Style the header links */
+  .linkss a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
