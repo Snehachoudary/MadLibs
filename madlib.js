@@ -5,7 +5,7 @@ function buildMadLib()
     let character=document.getElementById("char").value;
     let adverb=document.getElementById("adv").value;
     let adjective=document.getElementById("adj").value;
-    let ans='A Person Named '+P_name+' has a '+character+' character and is very '+adverb+ adjective;
+    let ans='A Person Named '+P_name+' has a '+character+' character and is very '+adjective+" and doing "+adverb;
     console.log(ans);
     document.getElementById('res').innerHTML=ans;
 
